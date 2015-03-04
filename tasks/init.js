@@ -29,7 +29,7 @@ module.exports = {
           artifactId: "dropwizard-testing",
           version: version
         },
-        checked: truej
+        checked: true
       },
       {
         name: "Dropwizard - Client",
