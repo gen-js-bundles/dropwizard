@@ -51,7 +51,7 @@ module.exports = {
         name: "Dropwizard - Authentication",
         value: {
           groupId: "io.dropwizard",
-          artifactId: "dropwizard-authentication",
+          artifactId: "dropwizard-auth",
           version: version
         }
       },
