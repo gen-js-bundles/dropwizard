@@ -22,11 +22,14 @@ module.exports = {
         // console.log(data);
         // console.log(data.Genjsfile);
         var outPath = path.join(process.cwd(),data.Genjsfile.config.outDir);
-        var command = 'mvn spring-boot:run';
+        var command = 'mvn package';
         console.log('=>',command,' in ',outPath);
-        var child = exec(command, {cwd: outPath});
-        child.stdout.pipe(process.stdout);
-        child.stderr.pipe(process.stderr);
+        exec(command, {cwd: outPath})
+          .then(function() {
+            if(callback) {
+              callback();
+            }
+          })
       }
 
     });
