@@ -18,13 +18,10 @@ module.exports = {
     inquirer.prompt(questions, function( answers ) {
 
       if(answers.start) {
-        console.log('start');
-        // console.log(data);
-        // console.log(data.Genjsfile);
         var outPath = path.join(process.cwd(),data.Genjsfile.config.outDir);
         var command = 'mvn package';
         console.log('=>',command,' in ',outPath);
-        exec(command, {cwd: outPath})
+        data.cli.exec(command, {cwd: outPath})
           .then(function() {
             if(callback) {
               callback();
