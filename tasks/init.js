@@ -8,7 +8,8 @@ var
 module.exports = {
   do: function(data, callback) {
 
-    var version = '0.7.1';
+    var dropwizardVersion = '0.7.1';
+    var version = '${dropwizard.version}';
 
     var dependenciesChoices = [
       {
@@ -272,7 +273,7 @@ module.exports = {
       if(data.global.version == null) {
         data.global.version = {};
       }
-      data.global.version.springboot = '1.2.2';
+      data.global.version.dropwizard = dropwizardVersion;
       if(data.global.version.java == null) {
         data.global.version.java = answers.javaVersion;
       }
