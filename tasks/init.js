@@ -29,29 +29,13 @@ module.exports = {
           artifactId: "dropwizard-testing",
           version: version
         },
-        checked: true
+        checked: truej
       },
       {
         name: "Dropwizard - Client",
         value: {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-client",
-          version: version
-        }
-      },
-      {
-        name: "Dropwizard - Validation",
-        value: {
-          groupId: "io.dropwizard",
-          artifactId: "dropwizard-validation",
-          version: version
-        }
-      },
-      {
-        name: "Dropwizard - Logging",
-        value: {
-          groupId: "io.dropwizard",
-          artifactId: "dropwizard-logging",
           version: version
         }
       },
@@ -64,34 +48,10 @@ module.exports = {
         }
       },
       {
-        name: "Dropwizard - Metrics",
-        value: {
-          groupId: "io.dropwizard",
-          artifactId: "dropwizard-metrics",
-          version: version
-        }
-      },
-      {
-        name: "Dropwizard - Jsckson",
-        value: {
-          groupId: "io.dropwizard",
-          artifactId: "dropwizard-jackson",
-          version: version
-        }
-      },
-      {
         name: "Dropwizard - Authentication",
         value: {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-authentication",
-          version: version
-        }
-      },
-      {
-        name: "Dropwizard - Configuration",
-        value: {
-          groupId: "io.dropwizard",
-          artifactId: "dropwizard-configuration",
           version: version
         }
       },
@@ -148,30 +108,6 @@ module.exports = {
         value: {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-util",
-          version: version
-        }
-      },
-      {
-        name: "Dropwizard - Jersey",
-        value: {
-          groupId: "io.dropwizard",
-          artifactId: "dropwizard-jersey",
-          version: version
-        }
-      },
-      {
-        name: "Dropwizard - Jetty",
-        value: {
-          groupId: "io.dropwizard",
-          artifactId: "dropwizard-jetty",
-          version: version
-        }
-      },
-      {
-        name: "Dropwizard - Lifecycle",
-        value: {
-          groupId: "io.dropwizard",
-          artifactId: "dropwizard-lifecycle",
           version: version
         }
       },
