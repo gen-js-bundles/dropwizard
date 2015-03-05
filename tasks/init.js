@@ -23,6 +23,15 @@ module.exports = {
         checked: true
       },
       {
+        name: "Test - Dropwizard - Core",
+        value: {
+          groupId: "io.dropwizard",
+          artifactId: "dropwizard-core",
+          version: version
+        },
+        checked: true
+      },
+      {
         name: "Dropwizard - Client",
         value: {
           groupId: "io.dropwizard",
@@ -117,6 +126,15 @@ module.exports = {
         value: {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-migrations",
+          version: version
+        },
+        checked: true
+      },
+      {
+        name: "Dropwizard - SPDY",
+        value: {
+          groupId: "io.dropwizard",
+          artifactId: "dropwizard-spdy",
           version: version
         },
         checked: true
