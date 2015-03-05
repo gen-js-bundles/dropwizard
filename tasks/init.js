@@ -46,8 +46,7 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-jdbi",
           version: version
-        },
-        checked: true
+        }
       },
       {
         name: "Dropwizard - Authentication",
@@ -64,8 +63,7 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-db",
           version: version
-        },
-        checked: true
+        }
       },
       {
         name: "Dropwizard - Asset",
@@ -82,8 +80,7 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-views",
           version: version
-        },
-        checked: true
+        }
       },
       {
         name: "Dropwizard - Views - Freemarker",
@@ -118,8 +115,7 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-util",
           version: version
-        },
-        checked: true
+        }
       },
       {
         name: "Dropwizard - Migrations",
@@ -138,7 +134,15 @@ module.exports = {
           version: version
         },
         checked: true
-      }
+      },
+      {
+        name: "Database - H2",
+        value: {
+          groupId: "com.h2database",
+          artifactId: "h2",
+          version: "1.4.182"
+        },
+        checked: true
     ];
 
     var questions = [
