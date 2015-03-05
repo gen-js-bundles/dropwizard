@@ -153,19 +153,6 @@ module.exports = {
         default: '1.8'
       },
       {
-        type: 'list',
-        name: 'packaging',
-        message: 'Which packaging ?',
-        choices: [{
-          name: 'Jar',
-          value: 'jar'
-        },{
-          name: 'War',
-          value: 'war'
-        }],
-        default: 'war'
-      },
-      {
         type: 'checkbox',
         name: 'dependenciesSelected',
         message: 'Which dependencies ?',
@@ -214,7 +201,7 @@ module.exports = {
         data.global.maven.artifactId = 'myapp';
       }
       if(data.global.maven.packaging == null) {
-        data.global.maven.packaging = answers.packaging;
+        data.global.maven.packaging = 'jar';
       }
 
       if(data.global.version == null) {
