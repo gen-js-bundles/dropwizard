@@ -26,6 +26,9 @@ module.exports = {
         }
         data.cli.exec('mvn package -Djar.finalName='+projectName, {cwd: outPath})
           .then(function() {
+            return data.cli.exec('java -jar target/'+projectName+'.jar db migrate example.yml', {cwd: outPath})
+          })
+          .then(function() {
             return data.cli.exec('java -jar target/'+projectName+'.jar server example.yml', {cwd: outPath})
           })
           .then(function() {
