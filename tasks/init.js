@@ -37,8 +37,7 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-client",
           version: version
-        },
-        checked: true
+        }
       },
       {
         name: "Dropwizard - JDBI",
