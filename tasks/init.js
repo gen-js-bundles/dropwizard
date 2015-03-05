@@ -37,7 +37,8 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-client",
           version: version
-        }
+        },
+        checked: true
       },
       {
         name: "Dropwizard - JDBI",
@@ -45,7 +46,8 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-jdbi",
           version: version
-        }
+        },
+        checked: true
       },
       {
         name: "Dropwizard - Authentication",
@@ -53,7 +55,8 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-auth",
           version: version
-        }
+        },
+        checked: true
       },
       {
         name: "Dropwizard - Database",
@@ -61,7 +64,8 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-db",
           version: version
-        }
+        },
+        checked: true
       },
       {
         name: "Dropwizard - Asset",
@@ -69,7 +73,8 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-assets",
           version: version
-        }
+        },
+        checked: true
       },
       {
         name: "Dropwizard - Views",
@@ -77,7 +82,8 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-views",
           version: version
-        }
+        },
+        checked: true
       },
       {
         name: "Dropwizard - Views - Freemarker",
@@ -85,7 +91,8 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-views-freemarker",
           version: version
-        }
+        },
+        checked: true
       },
       {
         name: "Dropwizard - Views - Mustache",
@@ -93,7 +100,8 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-views-mustache",
           version: version
-        }
+        },
+        checked: true
       },
       {
         name: "Dropwizard - Hibernate",
@@ -101,7 +109,8 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-hibernate",
           version: version
-        }
+        },
+        checked: true
       },
       {
         name: "Dropwizard - Utility classes",
@@ -109,7 +118,8 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-util",
           version: version
-        }
+        },
+        checked: true
       },
       {
         name: "Dropwizard - Migrations",
@@ -117,7 +127,8 @@ module.exports = {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-migrations",
           version: version
-        }
+        },
+        checked: true
       }
     ];
 
