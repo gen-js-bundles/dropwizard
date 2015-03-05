@@ -19,9 +19,15 @@ module.exports = {
 
       if(answers.start) {
         var outPath = path.join(process.cwd(),data.Genjsfile.config.outDir);
-        var command = 'mvn package';
-        console.log('=>',command,' in ',outPath);
-        data.cli.exec(command, {cwd: outPath})
+        try {
+          var projectName = data.Genjsfile.global.project.name;
+        } catch(e) {
+          var projectName = 'app';
+        }
+        data.cli.exec('mvn package -Djar.finalName='+projectName, {cwd: outPath})
+          .then(function() {
+            return data.cli.exec('java -jar target/'+projectName+'.jar server example.yml', {cwd: outPath})
+          })
           .then(function() {
             if(callback) {
               callback();
