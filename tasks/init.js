@@ -143,6 +143,7 @@ module.exports = {
           version: "1.4.182"
         },
         checked: true
+      }
     ];
 
     var questions = [
