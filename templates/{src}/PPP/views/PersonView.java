@@ -20,7 +20,7 @@ public class PersonView extends View {
     	}
     }
 
-    public PersonView(Template template, Person person) {
+    public PersonView(PersonView.Template template, Person person) {
         super(template.getTemplateName());
         this.person = person;
     }
