@@ -23,7 +23,7 @@ module.exports = {
         checked: true
       },
       {
-        name: "Test - Dropwizard - Core",
+        name: "Dropwizard - Core",
         value: {
           groupId: "io.dropwizard",
           artifactId: "dropwizard-core",
