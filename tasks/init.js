@@ -8,7 +8,7 @@ var
 module.exports = {
   do: function(data, callback) {
 
-    var dropwizardVersion = '0.7.2';
+    var dropwizardVersion = '0.7.1';
     var version = '${dropwizard.version}';
 
     var dependenciesChoices = [
